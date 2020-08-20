@@ -1,5 +1,7 @@
 abck cookie harvester. only works when there isnt a queue.
 
+#important: if you dont have proxies, delete or leave empty the proxies.txt file
+
 download and extract everything to a folder of your choice:
 
 run 'npm install'
