@@ -6,10 +6,10 @@ def install_dependencies():
     subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'httpx'])
 
 try:
-    import httpx, lxml.html as html, selenium
+    import httpx, lxml.html as html
 except:
     install_dependencies()
-    import httpx, lxml.html as html, selenium
+    import httpx, lxml.html as html
 
 class harvester():
     def __init__(self, proxy = None):
